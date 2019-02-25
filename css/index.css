@@ -173,6 +173,8 @@ nav a {
 }
 .header .header__container .header__text {
   margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 .header .header__container .header__text--2 {
   width: 75%;
@@ -180,9 +182,14 @@ nav a {
 body {
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(hsl(217, 28%, 15%), hsl(216, 53%, 9%));
   background: hsl(217, 28%, 15%) url('../images/bg-curvy-desktop.svg') no-repeat center 680px;
   background-size: 1200px 15%;
+}
+.bg__image {
+  position: absolute;
+  top: 1120px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .main__container {
   max-width: 650px;
@@ -192,11 +199,12 @@ button {
   width: 30%;
   padding: 10px;
   font-family: 'Open Sans', sans-serif;
-  background-color: hsl(176, 68%, 64%);
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   color: hsl(0, 0%, 100%);
   border: none;
   border-radius: 20px;
   margin: 20px 0px 20px 0px;
+  margin-bottom: 100px;
 }
 .middle__container--1 {
   display: flex;
@@ -213,6 +221,8 @@ button {
   padding: 10px;
 }
 .middle__container--1 .middle__box--1 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
@@ -227,6 +237,8 @@ button {
   padding: 10px;
 }
 .middle__container--1 .middle__box--2 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
@@ -252,6 +264,8 @@ button {
   padding: 10px;
 }
 .middle__container--2 .middle__box--3 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
@@ -266,6 +280,8 @@ button {
   padding: 10px;
 }
 .middle__container--2 .middle__box--4 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
   padding: 20px 0px 20px 0px;
 }
@@ -309,6 +325,8 @@ button {
   }
 }
 .middle__container--3 .middle__box--6 h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   padding-bottom: 20px;
   width: 80%;
 }
@@ -450,6 +468,8 @@ button {
   padding: 20px;
 }
 .signup__container .signup__text h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -467,19 +487,19 @@ button {
 .signup__container .input__text {
   border-radius: 100px;
   padding: 5px;
-  width: 300px;
+  width: 400px;
 }
 .signup__container .submit__button {
   border-radius: 100px;
   width: 30%;
   padding: 10px;
   font-family: 'Open Sans', sans-serif;
-  background-color: hsl(176, 68%, 64%);
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   color: hsl(0, 0%, 100%);
   border: none;
   border-radius: 20px;
   margin: 20px 0px 20px 0px;
-  width: 150px;
+  width: 165px;
   margin: 0px 0px 0px 10px;
 }
 .bottom__footer--container {
