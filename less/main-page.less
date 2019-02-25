@@ -1,9 +1,14 @@
 body{
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(@intro__bg, @footer__bg);
     background: @intro__bg url('../images/bg-curvy-desktop.svg') no-repeat center 680px;
     background-size: 1200px 15%;
+}
+.bg__image {
+    position: absolute;
+    top: 1120px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .main__container {
     max-width: 650px;
@@ -11,6 +16,7 @@ body{
 }
 button {
     .button__mixin();
+    margin-bottom: 100px;
 }
 //MIDDLE CONTENT
 .middle__container--1 {
@@ -24,6 +30,8 @@ button {
     .middle__box--1 {
         padding: 10px;
         h2 {
+            font-family: @raleway;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0px;
         }
@@ -38,6 +46,8 @@ button {
     .middle__box--2 {
         padding: 10px;
         h2 {
+            font-family: @raleway;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0px;
         }
@@ -61,6 +71,8 @@ button {
     .middle__box--3 {
         padding: 10px;
         h2{
+            font-family: @raleway;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0px;
         }
@@ -75,6 +87,8 @@ button {
     .middle__box--4 {
         padding: 10px;
         h2 {
+            font-family: @raleway;
+            font-weight: bold;
             text-align: center;
             padding: 20px 0px 20px 0px;
         }
@@ -87,6 +101,7 @@ button {
         }
     }
 }
+
 .middle__container--3 {
     display: flex;
     justify-content: space-between;
@@ -112,6 +127,8 @@ button {
             width: 90%;
         }
         h1 {
+            font-family: @raleway;
+            font-weight: bold;
             padding-bottom: 20px;
             width: 80%;
         }
@@ -244,6 +261,8 @@ button {
     .signup__text {
         padding: 20px;
         h1 {
+            font-family: @raleway;
+            font-weight: bold;
             text-align: center;
             padding-bottom: 20px;
         }
@@ -262,12 +281,12 @@ button {
     .input__text {
         border-radius: 100px;
         padding: 5px;
-        width: 300px;
+        width: 400px;
     }
     .submit__button {
         border-radius: 100px;
         .button__mixin();
-        width: 150px;
+        width: 165px;
         margin: 0px 0px 0px 10px;
     }
 }
